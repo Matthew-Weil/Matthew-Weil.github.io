@@ -19,18 +19,18 @@ This project was originally from CS-360 Mobile architecture and design. It was t
 	This artifact is all about modifying a database to enhance the user experience. I needed to create new tables within my database, new SQLite queries, and parse and process information from the database for display to the user. I also needed to create a new user interface page to allow a user to join a specific group instead of only their own database. I included this artifact because it was a good reflection of my understanding of databases and my ability to create and modify them.
 	To create the group functionality, I created a new ‘groups’ table within the database. This table needed to have a many-to-many relationship with the ‘user’ table, so I also created a bridge table called ‘groupUserBridgeTable’. I used an Android Room Database to store these tables and create SQLite database queries to get data back to my main application. An example of the groupDao SQLite queries is shown in Figure 1.
 
-![image](weil-artifact-3-figure-1.jpg)
+![image](Weil-artifcat-3-figure-1.jpg)
 **Figure 1**
 
 Since I was using a bridge table to allow the many-to-many relationship, it was sometimes necessary for me to user types of JOIN’s to get the proper information from the database.
 	In addition to the modification of the database itself, I also needed to create a new page where the user can join or create a new group. This page was accessed from the bottom left of the main application menu bar, which is always present for a logged in user. An example of the group page is shown in Figure 2.
 
-![image](weil-artifact-3-figure-2.jpg)
+![image](Weil-artifact-3-figure-2.jpg)
 **Figure2**
 
 It is still possible to use the application without a group at all, focusing solely on your own inventory. Within my Inventory Management file, I added logic to check if the user was in a group, to display the corresponding items (group items / user items). This logic is shown in Figure 3.
 
-![image](weil-artifcat-3-figure3.jpg)
+![image](Weil-artifact-3-figure-3.jpg)
 **Figure3**
 
 This logic checks every group that the user could possibly be in. If the list of groups is NOT empty, then it will get every item from the user’s groups. If the list of groups is empty, then it will simply grab only the items that belong to the user itself. Items is eventually displayed within a TableLayout on the inventory information page.
