@@ -30,7 +30,7 @@ Since I was using a bridge table to allow the many-to-many relationship, it was 
 
 It is still possible to use the application without a group at all, focusing solely on your own inventory. Within my Inventory Management file, I added logic to check if the user was in a group, to display the corresponding items (group items / user items). This logic is shown in Figure 3.
 
-![image](Weil-artifact-3-figure-3.jpg)
+![image](weil-artifact-3-figure-3.jpg)
 **Figure3**
 
 This logic checks every group that the user could possibly be in. If the list of groups is NOT empty, then it will get every item from the user’s groups. If the list of groups is empty, then it will simply grab only the items that belong to the user itself. Items is eventually displayed within a TableLayout on the inventory information page.
