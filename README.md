@@ -13,7 +13,7 @@ Matthew Weil GitHub Page Creation
 
 ## Software Design and Engineering Enhancement
 
-<a href="https://github.com/Matthew-Weil/CS-320-Enhanced" target="_blank"Artifact Repository</a>
+<a href="https://github.com/Matthew-Weil/CS-320-Enhanced" target="_blank">Artifact Repository</a>
 
 &emsp;The project that I modified was originally created as the final project for CS-320, Software Testing, Automation, and Quality Assurance. It consists of three different packages, labeled: Contact, Task, and Appointment. Each of these included two source Java files and accompanying JUnit tests. The objective of the project was to create and understand unit testing and how it fits into the development life cycle.
 
