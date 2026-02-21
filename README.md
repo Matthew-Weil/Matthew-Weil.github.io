@@ -55,10 +55,6 @@
 
 <a href="https://github.com/Matthew-Weil/CS-320-Enhanced" target="_blank">Artifact Repository</a>
 
-<details>
-	
-<summary>Details...</summary>
-
 &emsp;The project that I modified was originally created as the final project for CS-320, Software Testing, Automation, and Quality Assurance. It consists of three different packages, labeled: Contact, Task, and Appointment. Each of these included two source Java files and accompanying JUnit tests. The objective of the project was to create and understand unit testing and how it fits into the development life cycle.
 
 &emsp;Now, I have changed the language from java to cpp. Instead of JUnit tests, I created GoogleTest’s (GTests). I recreated every file within the original project in cpp and achieved the same level of tests and 100% code coverage using the GTests format. As an exmaple I have included a simple segment of code that I created for the project in Java, and its transcriped counterpart in cpp. These two examples are shown in Figure 1 and Figure 2.
@@ -84,9 +80,6 @@ The main part of this project 2was te actual unit testing component, which invol
 &emsp;While I was updating this code to cpp I did learn a lot about GTests. It was something that I have experienced very little in the past. One aspect that was tricky, and an improvement over my previous implementation in java, was the ability to detect the type of specific thrown error and its accompanying error message. I wanted to ensure that my GTest cases would not think a different thrown error than the expected error was correct. I did figure out an intuitive method to do so using a try-catch statement within EXPECT_THROW() to figure out the exact error message to match the expected.
 	
 &emsp;Overall, this artifact is a great demonstration of how I have grown as a developer and how I am able to translate my past skills into new ones.
-
-	
-</details>
 
 
 --------------
