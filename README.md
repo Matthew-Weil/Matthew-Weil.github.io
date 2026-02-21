@@ -1,4 +1,40 @@
-Matthew Weil GitHub Page Creation
+# Portfolio
+
+## About Me
+&emsp;Hello, my name is Matthew Weil. I am a graduate from Southern New Hampshire University with a degree in Computer Science. I have been working as a Software Engineer for nearly three years with an embedded systems focus. I've always taken a liking to computers as well as technology in gerenal, and love continuing that passion with the work I do on a daily basis. I have done many different levels of programming from SPI interface programming to UI interfaces for desktop applications. 
+
+&emsp;I code in very many different languages, but here is a couple I am especially proficient in:
+- C
+- Cpp
+- java
+- Python
+
+&emsp;Outside of work I love to bowl and go golfing. As well as work on some of my passion projects. One of the more recent projects I did was creating a 5" FPV drone which I love flying around outside.
+
+
+
+
+## Self-Assessment
+
+
+Include the following in your professional self-assessment:
+
+Discuss how completing your coursework throughout the program and developing the ePortfolio has helped you showcase your strengths, shape your professional goals and values, and prepare to enter or become more employable in the computer science field.
+- Use specific examples from your program and include examples outside of the artifacts included in your ePortfolio.
+- Address the following topics: collaborating in a team environment, communicating with stakeholders, data structures and algorithms, software engineering and database, and security. This section should function as an overall introduction to your skills, not a discussion of the artifacts.
+Summarize and introduce how your artifacts fit together and inform the portfolio as a whole.
+- This summary will help demonstrate the full range of your computer science talents and abilities.
+- This section should introduce your audience to the technical artifacts that follow the professional self-assessment.
+
+
+&emsp;Throughout the program at SNHU I got to work on a variety of different and unique projects.
+
+
+## My Previous Work!
+1.  [Code Review](#code-review)
+1.  [Software Design and Engineering Enhancement](#software-design-and-engineering-enhancement)
+2.  [Algorithm Enhancement](#algorithm-enhancement)
+3.  [Database Enchancement](#database-enhancement)
 
 ## Code Review
 
@@ -6,10 +42,8 @@ Matthew Weil GitHub Page Creation
   <iframe width="560" height="315" src="https://www.youtube.com/embed/6T51hvn3lhY?si=qGyszgnAJTalWuXe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-# My Previous Work!
-1.  [Software Design and Engineering Enhancement](#software-design-and-engineering-enhancement)
-2.  [Algorithm Enhancement](#algorithm-enhancement)
-3.  [Database Enchancement](#database-enhancement)
+
+--------------
 
 ## Software Design and Engineering Enhancement
 
@@ -25,8 +59,9 @@ Matthew Weil GitHub Page Creation
 
 &emsp;While I was updating this code to cpp I did learn a lot about GTests. It was something that I have experienced very little in the past. One aspect that was tricky, and an improvement over my previous implementation in java, was the ability to detect the type of specific thrown error and its accompanying error message. I wanted to ensure that my GTest cases would not think a different thrown error than the expected error was correct. I did figure out an intuitive method to do so using a try-catch statement within EXPECT_THROW() to figure out the exact error message to match the expected.
 	
-&emsp;Overall , this artifact is a great demonstration of how I have grown as a developer and how I am able to translate my past skills into new ones.
+&emsp;Overall, this artifact is a great demonstration of how I have grown as a developer and how I am able to translate my past skills into new ones.
 
+--------------
 
 ## Algorithm Enhancement
 
@@ -58,7 +93,7 @@ Matthew Weil GitHub Page Creation
 	
 &emsp;As I completed this artifact, I continued to learn more about Android studio and using its data structures and objects. I used a TableLayout to display the inventory information, so I learned a lot about how its specific rows work together and how to access the information within each row. I also learned a lot about callbacks and creating sections of code that need to be run when a certain condition is met. These callbacks make the UI usable and customizable by the user since they are able to decide when a section of code needs to be run by tapping a button. Overall, the process of creating this artifact was enjoyable and educational.
 
-
+--------------
 
 ## Database Enhancement
 
@@ -80,13 +115,13 @@ Matthew Weil GitHub Page Creation
 
 ![image](weil-artifact-3-figure-2.jpg)
 
-**Figure2**
+**Figure 2**
 
 &emsp;It is still possible to use the application without a group at all, focusing solely on your own inventory. Within my Inventory Management file, I added logic to check if the user was in a group, to display the corresponding items (group items / user items). This logic is shown in Figure 3.
 
 ![image](weil-artifact-3-figure-3.jpg)
 
-**Figure3**
+**Figure 3**
 
 &emsp;This logic checks every group that the user could possibly be in. If the list of groups is NOT empty, then it will get every item from the user’s groups. If the list of groups is empty, then it will simply grab only the items that belong to the user itself. Items is eventually displayed within a TableLayout on the inventory information page.
 
