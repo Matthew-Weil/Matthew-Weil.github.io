@@ -62,7 +62,7 @@ Matthew Weil GitHub Page Creation
 	
 &emsp;To create the group functionality, I created a new ‘groups’ table within the database. This table needed to have a many-to-many relationship with the ‘user’ table, so I also created a bridge table called ‘groupUserBridgeTable’. I used an Android Room Database to store these tables and create SQLite database queries to get data back to my main application. An example of the groupDao SQLite queries is shown in Figure 1.
 
-![image](Weil-artifcat-3-figure-1.jpg)
+![image](weil-artifcat-3-figure-1.jpg)
 
 **Figure 1**
 
@@ -70,7 +70,7 @@ Matthew Weil GitHub Page Creation
 	
 &emsp;In addition to the modification of the database itself, I also needed to create a new page where the user can join or create a new group. This page was accessed from the bottom left of the main application menu bar, which is always present for a logged in user. An example of the group page is shown in Figure 2.
 
-![image](Weil-artifact-3-figure-2.jpg)
+![image](weil-artifact-3-figure-2.jpg)
 
 **Figure2**
 
