@@ -24,7 +24,8 @@ Matthew Weil GitHub Page Creation
 &emsp;The course outcome of demonstrating my ability to use well-founded and innovative techniques, skills, and tools to implement computer solutions was demonstrated here. The total artifact demonstrated my ability to use JUnit tests and GTests in both Java and cpp, which is greatly helpful when it comes to testing code.
 
 &emsp;While I was updating this code to cpp I did learn a lot about GTests. It was something that I have experienced very little in the past. One aspect that was tricky, and an improvement over my previous implementation in java, was the ability to detect the type of specific thrown error and its accompanying error message. I wanted to ensure that my GTest cases would not think a different thrown error than the expected error was correct. I did figure out an intuitive method to do so using a try-catch statement within EXPECT_THROW() to figure out the exact error message to match the expected.
-	Overall , this artifact is a great demonstration of how I have grown as a developer and how I am able to translate my past skills into new ones.
+	
+&emsp;Overall , this artifact is a great demonstration of how I have grown as a developer and how I am able to translate my past skills into new ones.
 
 
 ## Algorithm Enhancement
@@ -61,7 +62,7 @@ Matthew Weil GitHub Page Creation
 
 ## Database Enhancement
 
-<a href="https://github.com/Matthew-Weil/CS-360-Enhanced" target="_blank">Artifact Repository</a
+<a href="https://github.com/Matthew-Weil/CS-360-Enhanced" target="_blank">Artifact Repository</a>
 
 &emsp;This project was originally from CS-360 Mobile architecture and design. It was the final project where I was tasked to create a mobile application on android studio to track inventory items with separate user accounts. Prior to my improvement of this project, every user would have their own inventory showing only their items. In a real-world application, there will be times where multiple users need to access and modify the quantity of the same items. For instance, in a single warehouse there may be many user accounts, but they are all working with the same inventory and need to be able to see the modifications of other users. To facilitate this functionality, I added groups to the application, any user can join a group and now look at group items instead of their own. Now every employee within the warehouse can be in the same group and modify the same items.
 	
