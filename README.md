@@ -4,7 +4,7 @@ Matthew Weil GitHub Page Creation
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/6T51hvn3lhY?si=qGyszgnAJTalWuXe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>q
+</div>
 
 # My Previous Work!
 1.  [Software Design and Engineering Enhancement](#software-design-and-engineering-enhancement)
@@ -12,6 +12,9 @@ Matthew Weil GitHub Page Creation
 3.  [Database Enchancement](#database-enhancement)
 
 ## Software Design and Engineering Enhancement
+
+<a href="https://github.com/Matthew-Weil/CS-320-Enhanced" target="_blank"Artifact Repository</a>
+
 &emsp;The project that I modified was originally created as the final project for CS-320, Software Testing, Automation, and Quality Assurance. It consists of three different packages, labeled: Contact, Task, and Appointment. Each of these included two source Java files and accompanying JUnit tests. The objective of the project was to create and understand unit testing and how it fits into the development life cycle.
 
 &emsp;Now, I have changed the language from java to cpp. Instead of JUnit tests, I created GoogleTest’s (GTests). I recreated every file within the original project in cpp and achieved the same level of tests and 100% code coverage using the GTests format. 
@@ -26,7 +29,7 @@ Matthew Weil GitHub Page Creation
 
 ## Algorithm Enhancement
 
-<a href="https://github.com" target="_blank">GitHub Link</a>
+<a href="https://github.com/Matthew-Weil/CS-360-Enhanced" target="_blank">Artifact Repository</a>
 
 &emsp;This artifact was created for the completion of the final project of CS-360: Mobile Architecture and Programming. I was tasked to create an inventory management mobile application that would run on Android OS. It is needed to provide the user with the ability to track items as well as their quantity. They needed to be able to add and remove items from their tracker, as well as modify the quantity of any item. The algorithm I used for the creation and deletion of items within the inventory did not offer enough functionality for the user to use the app up to its full potential. I added the ability for the user to bulk delete items from the database shown in Figure 1, which got rid of an unsightly deleted button on every single item row.
 
@@ -58,7 +61,7 @@ Matthew Weil GitHub Page Creation
 
 ## Database Enhancement
 
-<a href="https://github.com" target="_blank">GitHub Link</a>
+<a href="https://github.com/Matthew-Weil/CS-360-Enhanced" target="_blank">Artifact Repository</a
 
 &emsp;This project was originally from CS-360 Mobile architecture and design. It was the final project where I was tasked to create a mobile application on android studio to track inventory items with separate user accounts. Prior to my improvement of this project, every user would have their own inventory showing only their items. In a real-world application, there will be times where multiple users need to access and modify the quantity of the same items. For instance, in a single warehouse there may be many user accounts, but they are all working with the same inventory and need to be able to see the modifications of other users. To facilitate this functionality, I added groups to the application, any user can join a group and now look at group items instead of their own. Now every employee within the warehouse can be in the same group and modify the same items.
 	
