@@ -67,7 +67,7 @@
 
 **Figure 2**
 
-The main part of this project 2was te actual unit testing component, which involved testing varius scenarios of the user using functions of my code in both a good way and a bad way. It was my job to test all the possible ways that a user could use these functions to certify that the code will run without flaw in all scenarios. Using GTests really streamlined this process and created an environment that facilitated easy testing of my functions. An example of one of my GTests for the constructor of the Appointment class is shown in Figure 3.
+&emsp;The main part of this project was the actual unit testing component, which involved testing varius scenarios of the user using functions of my code in both a good way and a bad way. It was my job to test all the possible ways that a user could use these functions to certify that the code will run without flaw in all scenarios. Using GTests really streamlined this process and created an environment that facilitated easy testing of my functions. An example of one of my GTests for the constructor of the Appointment class is shown in Figure 3.
 
 ![image](weil-artifact-1-figure-3.jpg)
 
