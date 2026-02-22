@@ -38,7 +38,7 @@
 ## My Previous Work!
 1.  [Code Review](#code-review)
 2.  [Software Design and Engineering Enhancement](#software-design-and-engineering-enhancement)
-3.  [Algorithms and Data structures Enhancement](#algorithm-and-datastructures-enhancement)
+3.  [Algorithms and Data structures Enhancement](#algorithms-and-data-structures-enhancement)
 4.  [Database Enchancement](#database-enhancement)
 
 ## Code Review
